@@ -14,7 +14,7 @@ So I’ve created this adapter. Some of its features include:
 * FTDI-compatible 3.3 V 6-pin UART header
 * 3.3 V or 5 V, ±70V fault-protected RS-485 driver
 
-
+[Schematic](/hardware/Schematic.pdf)
 
 ## macOS Notes
 
