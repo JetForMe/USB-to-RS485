@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "943124bc-26a4-46d0-9560-d21a8397ce75")
 	(paper "A4")
+	(title_block
+		(title "USB-to-RS485 Adapter")
+		(rev "1")
+		(company "Latency: Zero, LLC")
+		(comment 1 "©2024 Latency: Zero, LLC. All rights reserved.")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
