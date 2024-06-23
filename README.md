@@ -1,8 +1,8 @@
-# High Speed USB to RS-485 Adapter
+# High Speed USB to EIA-485 Adapter
 
-I got fed up trying to find a USB-to-RS485 adapter that could do 4 Mbps or better. Most
+I got fed up trying to find a USB-to-EIA485 adapter that could do 4 Mbps or better. Most
 of the available FTDI and CP2102N ICs top out at 3 Mbps, and most of the available
-RS-485 driver ICs are slew rate-limited to well below 4 Mbps.
+EIA-485 driver ICs are slew rate-limited to well below 4 Mbps.
 
 So I’ve created this adapter. Some of its features include:
 
@@ -12,7 +12,13 @@ So I’ve created this adapter. Some of its features include:
 * 3.3 V, 600 mA (including the adapter itself) power output
 * Configurable USB-C PD output, up to 20 V @ 100 W (hopefully)
 * FTDI-compatible 3.3 V 6-pin UART header
-* 3.3 V or 5 V, ±70V fault-protected RS-485 driver
+* 3.3 V or 5 V selectable, ±70V fault-protected EIA-485 driver (PROFIBUS compatible)
+* Full- or half-duplex operation
+* Optional bus termination resistors
+* EIA-485A and EIA-422B compatible
+* JTAG programmer/debugger
+* Interface to many other serial busses (I2C, SPI, etc.)
+* All FT232HP GPIO pins brought out on headers
 
 [Schematic](/hardware/Schematic.pdf)
 
