@@ -11,7 +11,7 @@ So I’ve created this adapter. Some of its features include:
 * 5 V, 3 A power output
 * 3.3 V, 600 mA (including the adapter itself) power output
 * Configurable USB-C PD output, up to 20 V @ 100 W (hopefully)
-* FTDI-compatible 3.3 V 6-pin UART header
+* FTDI-compatible 3.3 V 6-pin UART header (5V tolerant)
 * 3.3 V or 5 V selectable, ±70V fault-protected EIA-485 driver (PROFIBUS compatible)
 * Full- or half-duplex operation
 * Optional bus termination resistors
@@ -21,6 +21,17 @@ So I’ve created this adapter. Some of its features include:
 * All FT232HP GPIO pins brought out on headers
 
 [Schematic](/hardware/RS-485.pdf)
+
+## To Do
+
+So much still to do!
+
+* Add 5 V, 3 A buck regulator
+* Add 3.3V linear regulator
+* Add EEPROM
+* Connect RESET and PWRSAV
+* Remove voltage selector from FTDI header? We can't do 5V IO on it, although I think it’s 5V-tolerant.
+* PCB layout
 
 ## macOS Notes
 

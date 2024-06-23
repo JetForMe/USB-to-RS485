@@ -9,6 +9,7 @@
 		(rev "1")
 		(company "Latency: Zero, LLC")
 		(comment 1 "©2024 Latency: Zero, LLC. All rights reserved.")
+		(comment 4 "High-speed USB-to-EIA-485 adapter, with flexible power outputs and other features.")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
@@ -8916,7 +8917,7 @@
 		(uuid "4191c604-611e-4a30-affe-b65f778afd86")
 	)
 	(label "TXDEN"
-		(at 182.88 82.55 0)
+		(at 166.37 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
