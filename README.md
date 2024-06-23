@@ -20,7 +20,7 @@ So I’ve created this adapter. Some of its features include:
 * Interface to many other serial busses (I2C, SPI, etc.)
 * All FT232HP GPIO pins brought out on headers
 
-[Schematic](/hardware/Schematic.pdf)
+[Schematic](/hardware/RS-485.pdf)
 
 ## macOS Notes
 
