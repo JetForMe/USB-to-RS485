@@ -29,9 +29,11 @@ So much still to do!
 * Add 5 V, 3 A buck regulator
 * Add 3.3V linear regulator
 * Add EEPROM
+* Decoupling caps!
 * Connect RESET and PWRSAV
 * Remove voltage selector from FTDI header? We can't do 5V IO on it, although I think it’s 5V-tolerant.
 * PCB layout
+* Change schematic PDF generation to happen on push, if possible.
 
 ## macOS Notes
 
